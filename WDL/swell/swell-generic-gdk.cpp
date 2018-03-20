@@ -964,7 +964,7 @@ static void OnKeyEvent(GdkEventKey *k)
       {
         if (kv == DEF_GKY(Shift_L) || kv == DEF_GKY(Shift_R)) kv = VK_SHIFT;
         else if (kv == DEF_GKY(Control_L) || kv == DEF_GKY(Control_R)) kv = VK_CONTROL;
-        else if (kv == DEF_GKY(Alt_L) || kv == DEF_GKY(Alt_R) || kv == DEF_GKY(ISO_Level3_Shift)) kv = VK_MENU;
+        else if (kv == DEF_GKY(Alt_L) || kv == DEF_GKY(Alt_R)) kv = VK_MENU;
         else if (kv == DEF_GKY(Super_L) || kv == DEF_GKY(Super_R)) kv = VK_LWIN;
         else return; // unknown modifie key
 
